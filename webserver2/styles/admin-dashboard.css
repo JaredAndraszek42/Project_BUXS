@@ -1,0 +1,98 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header img {
+    height: 60px;
+}
+
+.logout-btn {
+    background: var(--primary-color);
+    padding: 10px 16px;
+    text-decoration: none;
+    color: var(--background-color);
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: var(--accent-color);
+}
+
+/* Admin Container */
+.admin-container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Dashboard Grid */
+.dashboard-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Dashboard Buttons */
+.dashboard-btn {
+    background: var(--light-bg);
+    padding: 15px 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+    min-width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.dashboard-btn i {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.dashboard-btn:hover {
+    background: var(--primary-color);
+    color: var(--background-color);
+}
+
+.dashboard-btn:hover i {
+    color: var(--background-color);
+}

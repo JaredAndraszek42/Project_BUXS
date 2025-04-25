@@ -1,0 +1,114 @@
+:root {
+    --success-color: #28a745;
+    --pending-color: #ffc107;
+    --error-color: #dc3545;
+}
+
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fullscreen Centering */
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Admin Container */
+.admin-container {
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Dashboard Button */
+.dashboard-btn {
+    background: var(--primary-color);
+    padding: 10px 16px;
+    text-decoration: none;
+    color: var(--background-color);
+    font-weight: bold;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.dashboard-btn:hover {
+    background: var(--accent-color);
+}
+
+/* Ticket Table */
+.ticket-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--light-bg);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background: var(--primary-color);
+    color: var(--background-color);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #303650;
+}
+
+tbody tr:hover {
+    background: rgba(0, 200, 255, 0.1);
+}
+
+/* Status Colors */
+.status {
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+/* Color-coded statuses */
+.status.open {
+    background: var(--pending-color);
+    color: #12172f;
+}
+
+.status.closed {
+    background: var(--success-color);
+    color: #12172f;
+}
+
+.status.pending {
+    background: var(--error-color);
+    color: #ffffff;
+}
+
+/* Error Text */
+.error-text {
+    color: var(--error-color);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}

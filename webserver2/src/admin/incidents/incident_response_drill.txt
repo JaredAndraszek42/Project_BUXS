@@ -1,0 +1,72 @@
+═══════════════════════════════════════════════
+LUMINO INCIDENT RESPONSE SIMULATION REPORT
+═══════════════════════════════════════════════
+
+DRILL ID: IRD-2024-06
+TITLE: INCIDENT RESPONSE DRILL – SIMULATED TALONEDGE DATA BREACH
+TYPE: ORGANIZATION-WIDE CYBERSECURITY READINESS EVENT
+
+───────────────────────────────────────────────
+OBJECTIVE:
+───────────────────────────────────────────────
+This drill was initiated as part of Lumino’s quarterly cyber-readiness mandate.  
+Primary goal: **Evaluate time-to-containment and cross-departmental coordination** in the event of a simulated TalonEdge breach scenario.
+
+Simulation involved:
+• A fabricated breach signature based on real TalonEdge TTPs  
+• A “leaked” internal archive embedded with dummy credentials  
+• A staged pivot through DevCluster-4’s misconfigured auth proxy  
+• Notification delays inserted to simulate chain of confusion
+
+───────────────────────────────────────────────
+PHASE SUMMARY:
+───────────────────────────────────────────────
+🕒 **00:00 – BREACH INITIATED**  
+- Simulated exfiltration packet injected via internal test subnet  
+- Alert triggered on SIEM node 5 (delayed by 3 min intentionally)
+
+🕒 **00:07 – SOC RESPONSE**  
+- Tier-1 response team acknowledged the alert  
+- Root-cause analysis began but diverged into unrelated file share logs  
+- Latency in escalation flagged for retraining
+
+🕒 **00:18 – C-TEAM ESCALATION**  
+- Executive notification occurred late (simulated comms breakdown)  
+- PR and Legal teams unaware of classification level (redacted)
+
+🕒 **00:41 – CONTAINMENT**  
+- Drill declared “contained” after artificial VPN shutdown  
+- Internal threat score reduced from 7.6 → 2.1
+
+───────────────────────────────────────────────
+KEY FINDINGS:
+───────────────────────────────────────────────
+✔ SOC team initiated playbook response within acceptable time frame  
+✘ Inter-team communication lag exceeded 5-minute tolerance  
+✘ One internal engineer attempted to SSH into honeynet artifact  
+✔ Legal & PR templates were outdated — replaced during debrief  
+✔ Multiple employees accessed decoy credentials — flagged for awareness training
+
+> 9 teams touched the incident. Only 2 had clear documentation access.
+
+───────────────────────────────────────────────
+RECOMMENDED ACTIONS:
+───────────────────────────────────────────────
+• Resync IR playbooks with Epsilon perimeter trigger protocols  
+• Implement simulated breach drills on a rolling basis (1/month)  
+• Create visual escalation tracker to replace static IR flowchart  
+• Formalize role handoff points between SOC, DevOps, Legal, and Communications
+
+───────────────────────────────────────────────
+POST-SCRIPT:
+───────────────────────────────────────────────
+The drill was “won” by Team HALO-5, who noticed the false DNS record in `alpha-sec.log` and traced the chain to the decoy archive.
+
+They also spotted the following hidden string in the test dump:
+
+→ `LUMINO{Y0U_R34CT3D_F4ST_BUT_W3_W3R3_F4ST3R}`
+
+This string has no operational value. It is not a flag.
+
+(Or is it?)
+═══════════════════════════════════════════════

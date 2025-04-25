@@ -1,0 +1,67 @@
+═══════════════════════════════════════════════
+LUMINO INTERNAL PROJECT – DATA SCRUBBER INITIATIVE
+═══════════════════════════════════════════════
+
+PROJECT: DATA SCRUBBER INITIATIVE (DSI)
+DATE: 2025-01-27
+CLEARANCE LEVEL: 4 – SENSITIVE CODEBASE ACCESS ONLY
+
+───────────────────────────────────────────────
+MISSION OBJECTIVE:
+───────────────────────────────────────────────
+The Data Scrubber Initiative (DSI) was launched to neutralize suspected TalonEdge tracking beacons covertly embedded across Lumino’s device fleet—including terminal nodes, dev kits, internal staff laptops, and datacenter firmware.
+
+The system will operate as a silent, low-footprint scanner to identify, quarantine, and remove beacon signals or beacon-trigger scripts without end-user interaction or logging.
+
+───────────────────────────────────────────────
+THREAT OVERVIEW:
+───────────────────────────────────────────────
+Intelligence indicates that TalonEdge has deployed at least two classes of beacon implants:
+
+> 🐞 Type-I Beacons: Passive telemetry probes disguised as driver-level entropy handlers  
+> 🧠 Type-II Beacons: Adaptive behavioral loggers that mimic diagnostic processes
+
+Known infection vectors include:
+- Supply-chain firmware tampering
+- Compromised DevOps toolkits
+- Phantom updates issued from spoofed Lumino domains
+
+> Estimated infected devices: **118–137 (undisclosed models)**
+
+───────────────────────────────────────────────
+SCRUBBER CAPABILITIES:
+───────────────────────────────────────────────
+✔ Byte-level signature sweeps on firmware & kernel modules  
+✔ Beacon entropy threshold scanning (based on ML models)  
+✔ Disarm triggers embedded in init scripts  
+✔ Rewrites corrupted syscalls using known-clean base images  
+✔ Offline quarantine: device enters ghost state until manually cleared
+
+───────────────────────────────────────────────
+RISKS / LIMITATIONS:
+───────────────────────────────────────────────
+• Beacon code is polymorphic – new variants evade SHA256+ lookups  
+• Type-II beacons may trigger self-destruct routines if detected  
+• Standard scrubbing may break legitimate hardware acceleration pathways  
+• Devices may enter lockdown mode if scrubber is interrupted mid-pass
+
+> Incident #DSI-0173: Anomaly detected in printer firmware led to zero-day lockout of 14 machines.
+
+───────────────────────────────────────────────
+NEXT PHASE:
+───────────────────────────────────────────────
+• Deploy scrubber to `internal-net-S3` cluster as silent update  
+• Activate test sweep on dummy node: `dev-wraith-01`  
+• Validate system rollback points before public deployment  
+• Final deployment across all dev kits scheduled for Q2 2025
+
+───────────────────────────────────────────────
+NOTES:
+───────────────────────────────────────────────
+• A ghost device with a burned-in Type-II signature remains unaccounted for.  
+• Internal risk models predict active beacon callbacks increase during full moon cycle (TBD).  
+• Flag hidden in the pre-scrub sector headers for test device `envy-9b` (hex obfuscated).
+
+═══════════════════════════════════════════════
+FLAG: LUMINO{D3L37E_TH3_B34C0N_S4V3_TH3_C0R3}
+═══════════════════════════════════════════════

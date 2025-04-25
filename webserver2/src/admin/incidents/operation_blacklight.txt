@@ -1,0 +1,56 @@
+═══════════════════════════════════════════════
+LUMINO INTERNAL OPERATIONS FILE – BLACKLIGHT
+═══════════════════════════════════════════════
+
+OPERATION: BLACKLIGHT
+PREPARED BY: INTERNAL SECURITY / SHADOWCELL UNIT
+SECURITY CLASS: LEVEL 5 – NEED-TO-KNOW ONLY
+RISK LEVEL: CRITICAL
+EXPOSURE CONSEQUENCES: IRREVERSIBLE
+
+───────────────────────────────────────────────
+MISSION OBJECTIVE:
+───────────────────────────────────────────────
+Operation BLACKLIGHT was initiated to identify and isolate suspected TalonEdge-aligned moles embedded within Lumino’s Research & Development Division.
+
+Preliminary indicators suggest that high-value prototypes and confidential neural mappings may have been **exfiltrated** through low-level personnel proxies.
+
+Multiple obfuscated access patterns have been observed across:
+- Experimental hypervisor shells
+- Epsilon fork logs (unauthorized mirrors)
+- Internal HR surveillance bypasses
+
+This operation is to remain **off-ledger** until complete.
+
+───────────────────────────────────────────────
+KNOWN COMPROMISE VECTORS:
+───────────────────────────────────────────────
+• Unscheduled pull requests from sandboxed development clusters
+• Encrypted outbound traffic during blackout maintenance windows
+• Employee devices with MAC-spoofing behavior at R&D terminals
+• Shadow email aliases observed communicating with TalonEdge-flagged relays
+
+───────────────────────────────────────────────
+PRIORITY TARGETS (HASH ONLY):
+───────────────────────────────────────────────
+• [REDACTED] - 8f92a6c90b8a03e1d2e7...
+• [REDACTED] - 31c4e9db0adf55721fc5...
+• [WATCH]    - 0041b6aa879dffe21c3e... (awaiting confirmation)
+
+> All surveillance data routed through Blackcell proxy nodes.
+
+───────────────────────────────────────────────
+ACTIVE COUNTERMEASURES:
+───────────────────────────────────────────────
+- Localized memory scraping agents deployed across all R&D devices
+- Internal keylogging active on devNet clusters 3–9
+- All wireless traffic mirrored to honeypoint `vm_shade-06`
+- Select R&D codebases replaced with tripwire canary variants
+
+───────────────────────────────────────────────
+ADDITIONAL NOTES:
+───────────────────────────────────────────────
+• As of this writing, 2 suspected moles remain under passive observation.
+• If either initiates outbound connection to [REDACTED], activate Protocol GRIM TIDE immediately.
+• This document is to be encrypted with dual-keychain split: SOC + R&D Director only.
+• Flag sequence embedded in obfuscated timestamp logs under `/var/tmp/epsilon_blseed.log`
