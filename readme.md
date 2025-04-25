@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/Logo.PNG" width="300" alt="Project BUXS Logo"/>
+  <img src="images/LuminoLogo.png" width="300" alt="Project BUXS Logo"/>
 </p>
 
 # Project BUXS – Browser User eXfiltration System
