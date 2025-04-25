@@ -1,0 +1,9 @@
+Good job finding this file. Give this code to your boss.
+
+{GET-HEADERS-CAN-BE-BROKEN}
+
+To continue, go to this site: http://lumino-portal or 192.168.4.91. It is a development website that Lumino uses.
+It should have an exploit to get admin privilages. However, it won't be easy.
+Just because it is a development site, doesn't mean it will be flawed everywhere. Make sure you check everywhere and try anything you can.
+
+- Flint

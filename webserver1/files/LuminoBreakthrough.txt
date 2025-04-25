@@ -1,0 +1,48 @@
+Lumino's Breakthrough in Privacy for Financial Institutions - A Case Study
+January 2022 – Austin, TX
+Prepared by: Lumino Corporate Communications
+
+Overview
+In an era where cyberattacks against financial institutions have increased by 45% year-over-year, Lumino has risen as the trusted cloud provider for high-security financial services. With banks, insurance companies, and credit unions being the frequent targets of hackers, Lumino’s Unbreakable Financial Suite has provided unprecedented protection, enabling these institutions to safely manage their most sensitive data.
+
+This case study explores Lumino’s role in securing First Horizon Financial Group, a top-25 U.S. bank, which chose Lumino over traditional cloud providers due to its unique encryption and data governance protocols. The collaboration between Lumino and First Horizon illustrates the growing demand for ethical cloud providers that offer both reliability and privacy in an increasingly hostile digital environment.
+
+The Challenge
+In late 2020, First Horizon Financial Group faced a significant challenge. Several cyberattacks, including a targeted phishing scheme that compromised internal networks, exposed vulnerabilities in the bank’s legacy cloud system. These breaches, though contained, left First Horizon’s executives concerned about the long-term viability of their current cloud provider, which lacked the cutting-edge security features necessary to defend against evolving threats.
+
+The financial industry demands systems capable of handling vast amounts of sensitive data under strict regulatory compliance with standards like GLBA (Gramm-Leach-Bliley Act) and SOX (Sarbanes-Oxley Act). A single data breach could result in catastrophic financial losses, not to mention the severe reputational damage that accompanies such incidents.
+
+First Horizon needed a solution that not only ensured data privacy but also enabled secure, real-time financial transactions, with zero downtime. The financial sector's reliance on speed and security demanded a partner capable of delivering the highest standard of service.
+
+Why Lumino?
+Lumino was chosen for its dual commitment to privacy and security, underpinned by its unique encryption technologies. First Horizon was impressed by Lumino’s promise of complete data sovereignty: even Lumino’s engineers cannot access client data, thanks to the company’s client-only decryption protocols. This feature stood in stark contrast to other cloud providers who maintain access to their clients' encrypted data for internal use or troubleshooting purposes.
+
+Lumino’s Quantum-Resistant Encryption offered future-proofing, ensuring that the bank’s data would remain secure even as quantum computing becomes a reality. This forward-thinking approach was a key factor in First Horizon’s decision to switch to Lumino.
+
+Elijah Zayne, CEO of Lumino, commented on the partnership:
+"Financial institutions are under constant pressure to stay ahead of sophisticated cyberattacks. At Lumino, we focus on offering security solutions that don’t just meet today’s standards but anticipate tomorrow’s challenges. We were proud to offer First Horizon a future-proof solution."
+
+The Implementation
+The transition from First Horizon’s legacy cloud infrastructure to Lumino’s Secure Financial Cloud was completed in just under five months—a feat that was achieved through meticulous planning and collaboration between both teams. Lumino’s implementation strategy included:
+
+Data Migration with Zero Downtime: Lumino’s engineers developed a seamless migration plan to transfer First Horizon’s petabytes of sensitive data to Lumino’s secure cloud. The entire process was completed without a single minute of service interruption, allowing the bank’s operations to continue unaffected.
+
+Client-Exclusive Encryption Keys: Lumino deployed its Client Key Management System, enabling First Horizon to fully control their encryption keys. This ensured that, even in the unlikely event of a breach, no unauthorized party, including Lumino, could access sensitive client data.
+
+Regulatory Compliance Integration: Given the strict regulatory requirements governing the financial industry, Lumino’s compliance team worked closely with First Horizon’s legal and IT departments to ensure that the Secure Financial Cloud adhered to all GLBA, SOX, and Dodd-Frank guidelines. Lumino’s Regulatory Compliance Module provided real-time audit trails, enabling First Horizon to meet reporting requirements with ease.
+
+Post-Migration Monitoring: Once the migration was complete, Lumino deployed its AI-Powered Privacy Defender Tool to continuously monitor the system for any security anomalies. This tool used machine learning algorithms to identify potential threats and stop attacks before they could penetrate the network.
+
+Results and Impact
+The results were immediate and transformative for First Horizon Financial Group. Not only did the bank gain access to military-grade encryption and real-time threat monitoring, but it also saw a dramatic reduction in its IT operating costs. The secure, flexible infrastructure allowed the bank to scale its operations efficiently without compromising security.
+
+Key benefits realized by First Horizon include:
+
+100% compliance with all financial industry regulations, including PCI-DSS (Payment Card Industry Data Security Standard) and FFIEC (Federal Financial Institutions Examination Council).
+A 50% reduction in cyberattack attempts, with Lumino’s AI tool thwarting multiple attempted intrusions during the first quarter post-implementation.
+Zero service interruptions, allowing First Horizon to maintain uninterrupted service for its clients.
+Jacob Miles, CIO of First Horizon, praised Lumino for its efficiency and innovation:
+"The transition to Lumino’s Secure Financial Cloud has been one of the best decisions we’ve made. Their encryption technologies and proactive security measures are second to none. We now have the confidence to serve our customers knowing that their data is fully protected."
+
+Looking Ahead
+As the financial industry continues to adapt to new digital threats, Lumino is committed to providing future-proof solutions that prioritize privacy, security, and client autonomy. With Quantum-Resistant Encryption and Zero-Trust Architecture, Lumino remains at the forefront of secure cloud computing, ensuring that financial institutions like First Horizon can thrive in an increasingly connected world.

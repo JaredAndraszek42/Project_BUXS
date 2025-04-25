@@ -1,0 +1,25 @@
+.topnav{
+	width:100%;
+	padding:20px;
+	display:flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: white;
+}
+
+.left{
+	display:flex;
+}
+
+.right{
+	display:flex;
+	justify-content: space-around;
+	margin-right:40px;
+}
+
+.topnav a{
+	font-size: 16px;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	padding:0 20px 0 20px;
+}

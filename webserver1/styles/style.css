@@ -1,0 +1,107 @@
+body{
+	margin:0px;
+	font-family: cursive;
+}
+
+img{
+	width: 25px;
+	margin: 10px;
+}
+.row{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+}
+
+.column{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+.hero{
+	color:#e09f3e;
+	padding:300px 0px 300px 0px;
+	
+	background-image: ;
+	background-color: #3c97a7;
+	background-blend-mode:luminosity;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:0px;
+	margin:0px;
+	align-items: flex-start;
+}
+
+.hero h1, .hero p{
+	margin:5px;
+	margin-left:10%;
+	text-shadow: #1f1106 0px 0px 10px;
+}
+
+.hero h1{
+	font-size: 70px;
+	font-weight: 100;
+}
+
+.hero p{
+	font-weight: 100;
+	letter-spacing: 5px;
+	color:#fcddad;
+}
+
+.item{
+	display:flex;
+	justify-content: left;
+}
+
+
+.collection{
+	display:flex;
+	align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+.links{
+	display:flex;
+	justify-content: flex-start;
+    flex-direction: column;
+}
+
+.block{
+	margin: 30px 10% 30px 10%;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 767px) {
+    .block {
+        margin: 30px 3%;
+    }
+} @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .block {
+        margin: 30px 7%;
+    }
+} @media screen and (min-width: 1200px) {
+    .block {
+        margin: 30px 20%;
+    }
+}
+
+.block img{
+	width: 300px;
+	height: 300px;
+}
+
+.block p{
+	text-indent: 20px;
+	word-spacing: 2px;
+	line-height: 30px;
+	padding: 0px 20px 0px 20px;
+}

@@ -1,0 +1,82 @@
+.pricing {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.pricing h2 {
+    font-size: 32px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.pricing-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 200, 255, 0.2);
+}
+
+.pricing-card.popular {
+    border-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+.pricing-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.pricing-card .price {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+    margin: 5px 0;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 200, 255, 0.3);
+}
+
+.usage-pricing {
+    margin-top: 50px;
+}
+
+.pricing-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.cta-final {
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--light-bg);
+    color: white;
+}

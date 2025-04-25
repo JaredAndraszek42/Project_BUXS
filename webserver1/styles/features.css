@@ -1,0 +1,22 @@
+.features {
+    background: var(--light-bg);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+}
+
+.feature i {
+    font-size: 40px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}

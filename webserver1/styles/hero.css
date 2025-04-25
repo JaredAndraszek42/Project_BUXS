@@ -1,0 +1,40 @@
+.hero {
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    background: url("../images/Lumino-Background.webp") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.hero::before {
+    conent: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+}

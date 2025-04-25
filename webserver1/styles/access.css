@@ -1,0 +1,97 @@
+.access-files {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.access-files .container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.access-files h2 {
+    font-size: 32px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.access-files p {
+    font-size: 18px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+/* Card-like structure for the file access form */
+.file-access-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 5px 15px rgba(0, 200, 255, 0.2);
+    text-align: left;
+}
+
+.file-access-card h3 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* Styling for dropdown select */
+.styled-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.styled-select:hover, .styled-select:focus {
+    border-color: var(--primary-color);
+}
+
+/* CTA Button = Submit Button too */
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background: var(--accent-color);
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.5);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .access-files .container {
+        padding: 0 20px;
+    }
+}
+
+#titleHeader {
+    font-size: 40 px;
+}
+
+#dateLocation {
+    font-size: 36px;
+}
+
+#author {
+    font-size: 34px;
+}
+
+.article {
+    font-size: 32px;
+}

@@ -1,0 +1,99 @@
+.team {
+    text-align: center;
+    padding: 80px 20px;
+    background: var(--light-bg);
+}
+
+.team h2 {
+    font-size: 32px;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+/* Vertical list layout */
+.team-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Individual team member */
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 200, 255, 0.3);
+}
+
+.team-member img {
+    width: 180px; 
+    height: 220px; 
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid var(--primary-color);
+}
+
+
+.team-info {
+    text-align: left;
+    flex: 1;
+}
+
+.team-info h3 {
+    font-size: 26px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.team-info p {
+    font-size: 18px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+/* Hover effect */
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 200, 255, 0.4);
+    border-color: var(--primary-color);
+}
+
+/* Mobile Responsiveness - Good for practice but likely not necessary */
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-member img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .team-info {
+        text-align: center;
+    }
+}
+
+/* For fancy Flint to look like Hint */
+.flint-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.flint-card {
+    cursor: pointer;
+}

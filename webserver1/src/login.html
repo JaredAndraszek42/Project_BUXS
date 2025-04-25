@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Lumino</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/hero.css">
+    <link rel="stylesheet" href="../styles/features.css">
+    <link rel="stylesheet" href="../styles/stats.css">
+    <link rel="stylesheet" href="../styles/testimonials.css">
+    <link rel="stylesheet" href="../styles/footer.css"> 
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+<nav class="navbar">
+        <div class="container">
+            <a href="/index.html" class="logo">
+                <img src="/images/LuminoLogo.png" alt="Lumino Logo">
+                LUMINO</a>
+            <ul class="nav-links">
+                <li><a href="/src/features.html">Features</a></li>
+                <li><a href="/src/documents.html">Docs</a></li>
+                <li><a href="/src/about.html">About</a></li>
+                <li><a href="/src/pricing.html">Pricing</a></li>
+                <li><a href="/src/contact.html">Contact Us</a></li>
+            </ul>
+            <a href="/src/login.html" class="cta-button">Log in</a>
+        </div>
+    </nav>
+
+    <!-- Login Form -->
+<section class="login-section">
+    <div class="login-box">
+        <h2>Sign in to Lumino</h2>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <p id="error-message" class="error-message hidden">Invalid username or password.</p>
+            <button type="submit" class="cta-button">Log In</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer-container">
+
+        <!-- Horizontal Sitemap -->
+        <nav class="footer-sitemap">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="documents.html">Docs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- Centered Logo and Copyright -->
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="../images/LuminoLogo.png" alt="Lumino Logo" onclick="scrollToTop()">
+            </div>
+            <p class="footer-copyright">&copy; 2025 Lumino Cloud. All rights reserved.</p>
+        </div>
+
+    </div>
+</footer>
+<script src="../scripts/script.js"></script>
+
+<!-- Clue for users so they don't get too lost -->
+<script>
+let failedAttempts = 0; // Counter for login attempts
+
+document.getElementById("login-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevents real form submission
+
+    const loginButton = document.querySelector(".cta-button");
+    const errorMessage = document.getElementById("error-message");
+
+    // Simulate loading effect
+    loginButton.textContent = "Logging in...";
+    loginButton.disabled = true;
+
+    setTimeout(() => {
+        errorMessage.classList.remove("hidden"); // Always show error message
+        loginButton.textContent = "Log In";
+        loginButton.disabled = false;
+
+        failedAttempts++; // Increase failed attempt count
+
+        if (failedAttempts === 5) {
+            alert("Clue: The exploit is not here. Look elsewhere ...");
+            failedAttempts = 0; // Reset counter after alert
+        }
+    }, 2000);
+});
+
+</script>
+</body>
+</html>

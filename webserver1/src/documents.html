@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="../images/LuminoLogo.png">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/nav.css">
+        <link rel="stylesheet" href="../styles/hero.css">
+        <link rel="stylesheet" href="../styles/features.css">
+        <link rel="stylesheet" href="../styles/stats.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/testimonials.css">
+        <link rel="stylesheet" href="../styles/access.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <title>Lumino Documents</title>
+</head>
+<body>
+    <!-- 🌐 Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/index.html" class="logo">
+                <img src="/images/LuminoLogo.png" alt="Lumino Logo">
+                LUMINO</a>
+            <ul class="nav-links">
+                <li><a href="/src/features.html">Features</a></li>
+                <li><a href="/src/documents.html">Docs</a></li>
+                <li><a href="/src/about.html">About</a></li>
+                <li><a href="/src/pricing.html">Pricing</a></li>
+                <li><a href="/src/contact.html">Contact Us</a></li>
+            </ul>
+            <a href="/src/login.html" class="cta-button">Log in</a>
+        </div>
+    </nav>
+        <div class="hero">
+		<h1>Latest News</h1>
+        </div>
+<section class="access-files">
+    <div class="container">
+        <div class="content">
+            <h2>Welcome to LumiNews</h2>
+            <p>
+                We offer a wide variety of news articles regarding resources and how to do things.
+                One of the many services we offer is our large selection of resources and papers regarding current trends in ethical cloud computing.
+            </p>
+
+            <div class="file-access-card">
+                <h3>Access File</h3>
+                <form method="GET" action="../scripts/file_access.php">
+                    <label for="filename">Select a File:</label>
+                    <select name="filename" id="filename" class="styled-select">
+                        <option value="Elijah.txt">Elijah Zayne</option>
+                        <option value="ElijahKeynotes.txt">Ethical Tech is the Future</option>
+                        <option value="ElijahTestifies.txt">The Future of Ethical Cloud Computing</option>
+                        <option value="LuminoBreakthrough.txt">Lumino's Breakthrough for Financial Institutions</option>
+                        <option value="LuminoLaunchesPublicEducation.txt">Lumino Launches 'Take Control of Your Data'</option>
+                        <option value="Markus.txt">Markus Thornton</option>
+                        <option value="LuminoLeads.txt">Lumino Leads the Way in Healthcare Data Protection</option>
+                        <option value="LuminoMostTrusted.txt">Lumino Named Most Trusted Cloud Provider</option>
+                        <option value="LuminoNewEncryption.txt">Lumino Announces New Government Encryption Suite</option>
+                        <option value="LuminoPartnersGlobal.txt">Lumino Partners with American Law Firms</option>
+                        <option value="LuminoRisesInUS.txt">Lumino Rises in U.S. Legal Market</option>
+                        <option value="Sophie.txt">Sophie Rivera</option>
+                    </select>
+
+                    <input type="submit" name="User" value="Access File" class="submit-button">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<footer class="footer">
+    <div class="container footer-container">
+
+        <!-- Horizontal Sitemap -->
+        <nav class="footer-sitemap">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="documents.html">Docs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- Centered Logo and Copyright -->
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="../images/LuminoLogo.png" alt="Lumino Logo" onclick="scrollToTop()">
+            </div>
+            <p class="footer-copyright">&copy; 2025 Lumino Cloud. All rights reserved.</p>
+        </div>
+
+    </div>
+</footer>
+
+
+
+<script>
+    function updateFilename(fileName) {
+        document.getElementById('filename').value = fileName;
+    }
+</script>
+
+</html>
